@@ -1,0 +1,35 @@
+{
+  "name": "genpark-multi-agent-debate-consensus-arbitration-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - Distributed multi-agent debate, arbitration & consensus agreement builder.",
+  "author": "genpark",
+  "category": "agentic",
+  "tags": [
+    "agent-debate",
+    "consensus-builder",
+    "arbitration-engine",
+    "multi-agent-voting",
+    "ph-august-top"
+  ],
+  "inputs": {
+    "debate_topic": {
+      "type": "string"
+    },
+    "participating_agents": {
+      "type": "array"
+    }
+  },
+  "outputs": {
+    "consensus_verdict": {
+      "type": "string"
+    },
+    "agreement_confidence_pct": {
+      "type": "number"
+    },
+    "dissenting_views_resolved": {
+      "type": "integer"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
